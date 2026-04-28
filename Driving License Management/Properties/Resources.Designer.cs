@@ -83,6 +83,16 @@ namespace Driving_License_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Back {
+            get {
+                object obj = ResourceManager.GetObject("Back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Back_DVDL {
             get {
                 object obj = ResourceManager.GetObject("Back DVDL", resourceCulture);
@@ -356,18 +366,6 @@ namespace Driving_License_Management.Properties {
         internal static System.Drawing.Bitmap id_card {
             get {
                 object obj = ResourceManager.GetObject("id-card", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap JviL7oVygKvYMAquLAgPSTKs56tcZ49LHqBH2iJkUYSxcFj08zheqWtRJuuLs_wA_0DQZ3gcMLDcM1EMfDgqNq_x56pYa_aIsqjAo8t59EO1d_f5e5Kxtf07UTeBHPov1vcrHlykmmv_i1NmQFuc_oV_m3ro_vqsiUNg9HvARPo0otERfJ7ZYhmggN2bCYJQ {
-            get {
-                object obj = ResourceManager.GetObject("JviL7oVygKvYMAquLAgPSTKs56tcZ49LHqBH2iJkUYSxcFj08zheqWtRJuuLs-wA-0DQZ3gcMLDcM1EMf" +
-                        "DgqNq-x56pYa-aIsqjAo8t59EO1d-f5e5Kxtf07UTeBHPov1vcrHlykmmv_i1NmQFuc_oV_m3ro-vqsi" +
-                        "UNg9HvARPo0otERfJ7ZYhmggN2bCYJQ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

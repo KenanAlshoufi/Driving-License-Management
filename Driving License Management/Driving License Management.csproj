@@ -645,16 +645,7 @@
     <None Include="Resources\cls.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\linkedin %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\JviL7oVygKvYMAquLAgPSTKs56tcZ49LHqBH2iJkUYSxcFj08zheqWtRJuuLs-wA-0DQZ3gcMLDcM1EMfDgqNq-x56pYa-aIsqjAo8t59EO1d-f5e5Kxtf07UTeBHPov1vcrHlykmmv_i1NmQFuc_oV_m3ro-vqsiUNg9HvARPo0otERfJ7ZYhmggN2bCYJQ.jfif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\github.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\linkedin %282%29.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\linkedin.png" />
@@ -706,6 +697,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\data.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

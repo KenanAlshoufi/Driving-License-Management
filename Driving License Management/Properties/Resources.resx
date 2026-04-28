@@ -232,6 +232,9 @@
   <data name="notes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="data" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="profile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -322,9 +325,6 @@
   <data name="woman" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\woman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JviL7oVygKvYMAquLAgPSTKs56tcZ49LHqBH2iJkUYSxcFj08zheqWtRJuuLs-wA-0DQZ3gcMLDcM1EMfDgqNq-x56pYa-aIsqjAo8t59EO1d-f5e5Kxtf07UTeBHPov1vcrHlykmmv_i1NmQFuc_oV_m3ro-vqsiUNg9HvARPo0otERfJ7ZYhmggN2bCYJQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JviL7oVygKvYMAquLAgPSTKs56tcZ49LHqBH2iJkUYSxcFj08zheqWtRJuuLs-wA-0DQZ3gcMLDcM1EMfDgqNq-x56pYa-aIsqjAo8t59EO1d-f5e5Kxtf07UTeBHPov1vcrHlykmmv_i1NmQFuc_oV_m3ro-vqsiUNg9HvARPo0otERfJ7ZYhmggN2bCYJQ.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -334,7 +334,7 @@
   <data name="label1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\label1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="data" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\data.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

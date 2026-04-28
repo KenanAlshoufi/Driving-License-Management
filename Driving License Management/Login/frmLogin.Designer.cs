@@ -40,17 +40,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cbRememberme = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // errorProvider1
@@ -168,6 +168,18 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Enter Your Credentials to access your account";
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = global::Driving_License_Management.Properties.Resources.github__3_;
+            this.pictureBox6.Location = new System.Drawing.Point(556, 476);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(16, 17);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 19;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -183,19 +195,19 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Driving_License_Management.Properties.Resources.نظام_إدارة_رخص_القيادة;
-            this.pictureBox1.Location = new System.Drawing.Point(-3, -21);
+            this.pictureBox1.Location = new System.Drawing.Point(0, -21);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(404, 299);
+            this.pictureBox1.Size = new System.Drawing.Size(412, 299);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::Driving_License_Management.Properties.Resources.JviL7oVygKvYMAquLAgPSTKs56tcZ49LHqBH2iJkUYSxcFj08zheqWtRJuuLs_wA_0DQZ3gcMLDcM1EMfDgqNq_x56pYa_aIsqjAo8t59EO1d_f5e5Kxtf07UTeBHPov1vcrHlykmmv_i1NmQFuc_oV_m3ro_vqsiUNg9HvARPo0otERfJ7ZYhmggN2bCYJQ;
-            this.pictureBox5.Location = new System.Drawing.Point(2, 93);
+            this.pictureBox5.Image = global::Driving_License_Management.Properties.Resources.Back;
+            this.pictureBox5.Location = new System.Drawing.Point(2, 78);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(384, 399);
+            this.pictureBox5.Size = new System.Drawing.Size(410, 413);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox5.TabIndex = 17;
             this.pictureBox5.TabStop = false;
@@ -209,18 +221,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = global::Driving_License_Management.Properties.Resources.github__3_;
-            this.pictureBox6.Location = new System.Drawing.Point(556, 476);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(16, 17);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 19;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // frmLogin
             // 
@@ -255,11 +255,11 @@
             this.Shown += new System.EventHandler(this.frmLogin_Shown);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTop_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
