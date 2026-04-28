@@ -56,7 +56,7 @@ cd project
 </pre> 
 
 
-<img width="550" height="147" alt="image" src="https://github.com/user-attachments/assets/44606a47-0407-4eee-9ad4-65f06a2367c0" />
+<img width="690" height="145" alt="image" src="https://github.com/user-attachments/assets/44606a47-0407-4eee-9ad4-65f06a2367c0" />
 
 
 <br><br>
