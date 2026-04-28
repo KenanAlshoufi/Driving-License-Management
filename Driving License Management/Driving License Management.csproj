@@ -645,16 +645,7 @@
     <None Include="Resources\cls.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\github.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\linkedin.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\github %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\github %282%29.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\github %283%29.png" />
