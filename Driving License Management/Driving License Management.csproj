@@ -75,6 +75,7 @@
     <Compile Include="Applications\Internaional License\frmManageInternationalLicenseApplication.Designer.cs">
       <DependentUpon>frmManageInternationalLicenseApplication.cs</DependentUpon>
     </Compile>
+    <Compile Include="clsFormat.cs" />
     <Compile Include="License\International\ctrlInternaionalLicenseInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -150,7 +151,6 @@
     <Compile Include="Applications\Control\ctrlApplicationBasicInfo.Designer.cs">
       <DependentUpon>ctrlApplicationBasicInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="clsFormat.cs" />
     <Compile Include="License\Local Driving\Control\ctrlDrivingLicenseInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>

@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Driving_License_Management
 {
-    public  static class clsFormat
+    public class clsFormat
     {
         public static string DateToShort(DateTime dt)
         {
