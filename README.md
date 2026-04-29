@@ -3,20 +3,23 @@
 
 <br><br>
 نظام لإدارة رخص القيادة مع واجهة سهلة وتنظيم متكامل للبيانات<br> 
-يحتوي على العديد الخدمات الرئيسية المقدمه : 
-1. First-time license issuance.
+يحتوي على العديد الخدمات الرئيسية المقدمه :
 
-2. Re-examination service.
 
-3. Driver's license renewal service.
 
-4. Replacement of lost license.
+1️⃣.First-time license issuance.
 
-5. Replacement of damaged license.
+2️⃣.Re-examination service.
 
-6. Release of suspended driver's license.
+3️⃣.Driver's license renewal service.
 
-7. License issuance service.
+4️⃣.Replacement of lost license.
+
+5️⃣.Replacement of damaged license.
+
+6️⃣.Release of suspended driver's license.
+
+7️⃣.License issuance service.
 
 <br><br>
 
@@ -48,17 +51,21 @@ cd project
 
 ## 🕹 Usage
 <pre>
+🔐Login :
+  Usrename = admin .
+  password = 1234.
+
+<pre>  
 --To run the program without any problems:
 
 1. Restore the database on the DBMS.
 
-2. Edit a line in the Connection String of the database (User ID, Password).
+2. Edit a line in the class Connection String of the Data Access Layar (User ID, Password).
 </pre> 
-
 
 <img width="690" height="145" alt="image" src="https://github.com/user-attachments/assets/44606a47-0407-4eee-9ad4-65f06a2367c0" />
 
-
+</pre> 
 <br><br>
 
 
