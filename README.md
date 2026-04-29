@@ -1,46 +1,50 @@
 ## 🚀 Driving License Management
 [![Forks](https://img.shields.io/github/forks/KenanAlshoufi/Driving-License-Management?style=for-the-badge)](https://github.com/username/repo)
 
-<br><br>
-نظام لإدارة رخص القيادة مع واجهة سهلة وتنظيم متكامل للبيانات<br> 
-يحتوي على العديد الخدمات الرئيسية المقدمه :
+
+### 🧾 Application Management
+- Create and manage different types of requests:
+  - First-time license issuance
+  - License renewal
+  - Replacement for lost/damaged licenses
+  - International license issuance
+- Track application status (New, Completed, Cancelled)
+- Prevent duplicate or invalid requests
+
+### 👤 People Management
+- Store and manage applicant data
+- Unique identification using National ID
+- Full profile management (Name, DOB, Contact Info, etc.)
+
+### 🧪 Test Management
+- Vision Test 👁️
+- Theory Test 📘
+- Practical Driving Test 🚗
+- Schedule tests and record results
+- Allow retakes for failed tests
+
+### 🪪 License Management
+- Issue licenses based on class and eligibility
+- Renew expired licenses
+- Handle detained licenses and release them
+- Issue international driving licenses
 
 
-
-1️⃣.First-time license issuance.
-
-2️⃣.Re-examination service.
-
-3️⃣.Driver's license renewal service.
-
-4️⃣.Replacement of lost license.
-
-5️⃣.Replacement of damaged license.
-
-6️⃣.Release of suspended driver's license.
-
-7️⃣.License issuance service.
-
-<br><br>
-
-
-## ✨ Features
+### ✨ Features
 
 - 🔐 Login system
 - 📊 Data management
 
 
-
-
 <br><br>
 
-## 📸 Preview
+### 📸 Preview
 <img width="761" height="488" alt="image" src="https://github.com/user-attachments/assets/b251a772-5a79-42d4-a13e-57d23b593254" />
 
 
 <br><br>
   
-## ⚙️ Installation
+### ⚙️ Installation
 
 ```bash
 git clone https://github.com/KenanAlshoufi/Driving-License-Management.git
@@ -49,7 +53,7 @@ cd project
 
 <br><br>
 
-## 🕹 Usage
+### 🕹 Usage
 <pre>
 🔐Login :
   Usrename = admin .
@@ -66,17 +70,29 @@ cd project
 <img width="690" height="145" alt="image" src="https://github.com/user-attachments/assets/44606a47-0407-4eee-9ad4-65f06a2367c0" />
 
 </pre> 
-<br><br>
+<br>
+
+### 🛠️ Technologies
+
+- **C# (.NET)**
+- **Object-Oriented Programming (OOP)**
+- **SQL Server**
+- **Windows Forms / Desktop Application**
+<br>
+
+### 📬 Contact Me
+
+- LinkedIn: [linkedin.com/in/kenanal-shoufi](https://www.linkedin.com/in/kenanal-shoufi/)
+- Email: kenanalshoufi.w@gmail.com
+
+<br>
+
+### ⭐ Support
+
+If you like this project, feel free to give it a star ⭐
 
 
-## 🛠️ Technologies
-
-- C#
-- SQL Server
-- .NET Framework
-
-
-  <br><br>
+  <br>
 ![C#](https://img.shields.io/badge/code-C%23-blue?style=for-the-badge)
 ![SQL Server](https://img.shields.io/badge/database-SQL%20Server-red?style=for-the-badge)
 ![.NET](https://img.shields.io/badge/framework-.NET-purple?style=for-the-badge)
