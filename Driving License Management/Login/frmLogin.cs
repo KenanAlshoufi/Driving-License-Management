@@ -58,7 +58,7 @@ namespace Driving_License_Management
         private void frmLogin_Load(object sender, EventArgs e)
         {
 
-            string UserName = "", Password = "";
+            string UserName = null, Password = null;
 
             if (clsGlobal.GetStoredCredential(ref UserName, ref Password))
             {
