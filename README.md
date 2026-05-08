@@ -64,10 +64,10 @@ cd project
 
 1. Restore the database on the DBMS.
 
-2. Edit a line in the class Connection String of the Data Access Layar (User ID, Password).
+2. Modify the App.config file to connect to the database. (User ID, Password).
 </pre> 
 
-<img width="690" height="145" alt="image" src="https://github.com/user-attachments/assets/44606a47-0407-4eee-9ad4-65f06a2367c0" />
+<img width="901" height="121" alt="image" src="https://github.com/user-attachments/assets/88535af0-def4-4171-b4a3-a27724e69ec0" />
 
 </pre> 
 <br>
