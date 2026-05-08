@@ -14,14 +14,14 @@ namespace Driving_License_Management
     public class clsGlobal
     {
         public static User CurrentUser;
+      public static string KeyPath = @"HKEY_CURRENT_USER\SOFTWARE\DVLDUserName";
+      public static string ValueName = "UserName";
+      public static string ValueName2 = "Password";
 
         public static bool RememberUsernameAndPassword(string Username, string Password)
         {
 
-            string KeyPath = @"HKEY_CURRENT_USER\SOFTWARE\DVLDUserName";
-            string ValueName = "UserName";
             string ValueDate = Username;
-            string ValueName2 = "Password";
             string ValueDate2 = Password;
 
             try
@@ -44,10 +44,7 @@ namespace Driving_License_Management
         public static bool GetStoredCredential(ref string Username, ref string Password)
         {
             //this will get the stored username and password and will return true if found and false if not found.
-            string KeyPath = @"HKEY_CURRENT_USER\SOFTWARE\DVLDUserName";
-            string ValueName = "UserName";
-            string ValueName2 = "Password";
-           
+          
 
             try
             {
@@ -57,8 +54,16 @@ namespace Driving_License_Management
                     Username = (string)Registry.GetValue(KeyPath, ValueName, RegistryValueKind.String);
                     Password = (string)Registry.GetValue(KeyPath, ValueName2, RegistryValueKind.String);
 
-
+                if (Username != null && Password != null)
+                {
                 return true;
+
+                }
+                else
+                {
+                    return false;
+                }
+
             }
             catch (Exception ex)
 
