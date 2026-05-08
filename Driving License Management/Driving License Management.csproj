@@ -75,6 +75,7 @@
     <Compile Include="Applications\Internaional License\frmManageInternationalLicenseApplication.Designer.cs">
       <DependentUpon>frmManageInternationalLicenseApplication.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class Global\clsLogging.cs" />
     <Compile Include="clsFormat.cs" />
     <Compile Include="License\International\ctrlInternaionalLicenseInfo.cs">
       <SubType>UserControl</SubType>

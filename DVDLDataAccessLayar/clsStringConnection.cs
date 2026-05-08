@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Configuration;
 
 namespace DVDLDataAccessLayar
 {
     public class clsStringConnection
     {
-        public static string StringConnection = "Server=.;Database=DVLD;User Id=?????;Password=?????";
+        public static string StringConnection = ConfigurationManager.ConnectionStrings["DVLD"].ConnectionString;
     }
 }
