@@ -1,10 +1,8 @@
 ﻿using DVDLDataAccessLayar;
 using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace DVDLBusinessLayar
 {
@@ -42,6 +40,16 @@ namespace DVDLBusinessLayar
             Mode = enMode.Update;
         }
 
+        public static string ComputeHash(string Input)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] hashbytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(Input));
+
+                return BitConverter.ToString(hashbytes).Replace("-", "").ToLower();
+            }
+        }
+
         public static DataTable GetAllUsers()
         {
             return UsersData.GetAllUser();
@@ -49,7 +57,7 @@ namespace DVDLBusinessLayar
 
         private bool _AddNewUser()
         {
-            this.UserID = UsersData.AddNewUser(this.PersonID, this.UserName, this.Password, this.IsActive);
+            this.UserID = UsersData.AddNewUser(this.PersonID, this.UserName, ComputeHash(this.Password), this.IsActive);
 
             if (this.UserID != 0)
             {
@@ -61,7 +69,7 @@ namespace DVDLBusinessLayar
 
         private bool _UpdateUser()
         {
-            return UsersData.UpdateUser(UserID, PersonID, UserName, Password, IsActive);
+            return UsersData.UpdateUser(UserID, PersonID, UserName, ComputeHash( Password), IsActive);
            
         }
 
@@ -121,7 +129,7 @@ namespace DVDLBusinessLayar
 
             if (UsersData.FindUserByUserID(UserID,ref PersonID,ref UserName,ref Password,ref IsActive))
             {
-                return new User(UserID,  PersonID,  UserName,  Password, IsActive);
+                return new User(UserID,  PersonID,  UserName, Password, IsActive);
             }
             else
             {
@@ -138,7 +146,7 @@ namespace DVDLBusinessLayar
 
             if (UsersData.FindUserByPersonID(PersonID, ref UserID,  ref UserName, ref Password, ref IsActive))
             {
-                return new User(UserID, PersonID, UserName, Password, IsActive);
+                return new User(UserID, PersonID, UserName,  Password, IsActive);
             }
             else
             {
@@ -152,9 +160,9 @@ namespace DVDLBusinessLayar
             int PersonID = 0;
             bool IsActive = false;
 
-            if (UsersData.FindUserByUserNameAndPassword(UserName, Password, ref PersonID, ref UserID,ref IsActive))
+            if (UsersData.FindUserByUserNameAndPassword(UserName, ComputeHash( Password), ref PersonID, ref UserID,ref IsActive))
             {
-                return new User(UserID, PersonID, UserName, Password, IsActive);
+                return new User(UserID, PersonID, UserName, ComputeHash( Password), IsActive);
             }
             else
             {
@@ -164,7 +172,7 @@ namespace DVDLBusinessLayar
 
         public static bool ChangePassword(int UserID, string NewPassword)
         {
-            return UsersData.ChangePassword(UserID, NewPassword);
+            return UsersData.ChangePassword(UserID, ComputeHash( NewPassword));
         }
 
         public static int NumberOfUsers()

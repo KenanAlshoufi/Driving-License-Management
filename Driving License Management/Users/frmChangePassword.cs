@@ -94,7 +94,9 @@ namespace Driving_License_Management
                 errorProvider1.SetError(txtCurrentPassword, null);
             }
 
-            if (user.Password != txtCurrentPassword.Text.Trim())
+            string PasswordAfterHash = User.ComputeHash(txtCurrentPassword.Text.Trim());
+
+            if (user.Password != PasswordAfterHash)
             {
 
                 e.Cancel = true;
