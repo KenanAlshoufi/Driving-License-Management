@@ -58,8 +58,6 @@ namespace Driving_License_Management
 
                 dgvUsers.Columns.Add(column);
                 column.DataPropertyName = "IsActive";
-
-
             }
         }
 

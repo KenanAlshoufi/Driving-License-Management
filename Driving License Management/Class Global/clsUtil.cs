@@ -12,11 +12,22 @@ namespace Driving_License_Management
     {
         public static bool CreateFolderIfDoesNotExist(string Path)
         {
-            if (File.Exists(Path))
+            if (!Directory.Exists(Path))
             {
-                File.Create(Path);
+                try
+                {
+                    // If it doesn't exist, create the folder
+                    Directory.CreateDirectory(Path);
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error creating folder: " + ex.Message);
+                    return false;
+                }
             }
-                return true;
+
+            return true;
         }
 
         public static string GenerateGUID()
